@@ -71,8 +71,8 @@ class Series1Test
 	public void allElementsExceptFirstThree() {
 
 		int arrayIn[] = { 1, 2, 3, 4, 5, 6, 7, 8 };
-		int arrayExpected[] = { 4, 5, 6, 7, 8 };
-		assertArrayEquals(arrayExpected, Series1.allElementsExceptFirstThree(arrayIn));
+		int arrayExpec[] = { 4, 5, 6, 7, 8 };
+		assertArrayEquals(arrayExpec, Series1.allElementsExceptFirstThree(arrayIn));
 
 		int arrayIn2[] = { 12, 15 };
 		int arrayExpected2[] = {};
